@@ -1,0 +1,481 @@
+body{
+    margin: 0px;
+}
+
+.picture {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/11c803d4-06f3-467e-91f7-0560ce15a396/0eceea79-5607-407a-ae10-52f26872d601/IN-en-20210517-popsignuptwoweeks-perspective_alpha_website_medium.jpg"); 
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+    border-bottom: 10px solid #222 ;
+}  
+
+
+#logo{
+    width: 148px;
+    position:relative;
+    top:-5px;
+}
+.items_1{
+    text-align: center;
+    display:flex;
+    left:362px;
+    position:relative;
+    top:18px;
+    background-color:black;
+    width:74px;
+    height:25px;
+    color:white;
+    padding:5px;
+    border:1px solid white;
+    border-radius: 4px;
+    align-items: center;
+      
+}
+
+.items{
+    display:flex;
+    justify-content: space-between; 
+}
+.sign{
+    position:relative;
+    top:20px;
+    right:85px;
+    background-color: #E50914;
+    width:70px;
+    height:23px;
+    padding:4px;
+    padding-left: 9px;
+    color:white;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pictures div{
+    color:white;
+} 
+
+.more_info{
+    text-align: center;
+    position:relative;
+    top:70px;
+}
+.more_info h1{
+    font-size: 36px;
+    font-weight: 900;
+    color:white;
+}
+.more_info h4{
+    font-size: 25px;
+    font-weight: normal;
+    color:white;
+}
+.more_info p{
+    font-size: 24px;
+    color:white;
+}
+#email{
+    border:2px solid black;
+    width:475px;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding:17px;
+    position: relative;
+    left:64px;
+}
+#submit{
+    position:relative;
+    left:59px;
+    font-size: 16px;
+    background-color: #E50914;
+    padding: 17px;
+    width:163px;
+    color:white;
+    cursor: pointer;
+}
+#language{
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+.tv{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    height:480px;
+    border-bottom: 10px solid #222;
+    
+}
+.tv_image img{
+    width:500px;
+}
+
+.tv_info h1,h4{
+    color:white;
+}
+.tv_info h1{
+    font-size: 55px;
+   font-weight: bolder;
+   position:relative;
+   left:15px;
+   top:90px;
+}
+.tv_info h4{
+    font-size:24px;
+    position:relative;
+    left:15px;
+    top:80px;
+}
+
+
+.mobile{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    border-bottom: 10px solid #222;
+    height:480px;
+}
+
+.mobile_info h1,h4{
+    color:white;
+}
+.mobile_info h1{
+    font-size: 48px;
+    font-weight: bolder;
+    position:relative;
+}
+.mobile_info h4{
+    font-size:24px;
+    position:relative;
+
+}
+.mobile_image img{
+    height:380px;
+    position: relative;
+    right:142px;
+}
+
+.mac_info{
+    position:relative;
+    top:10px;
+    
+}
+.mac_image img{
+    
+    height:380px;
+    position: relative;
+    right:-13px;
+    
+}
+.mac{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    height:480px;
+    border-bottom: 10px solid #222;
+}
+
+.mac_info{
+    position:relative;
+    top:36px;
+    
+}
+.mac_info h1{
+    color:white;
+    font-size: 45px;
+    font-weight: bolder;
+    
+}
+.mac_info h4{
+    font-size:24px ;
+}
+
+.children {
+    display: flex;
+    justify-content: space-around;
+    height:480px;
+    border-bottom: 10px solid #222;
+    background-color: black;
+}
+.children_image img{
+    height:380px;
+
+}
+.children_info h1,h4{
+    color:white;
+}
+.children_info h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.children_info h4{
+    font-size:24px ;
+}
+
+
+.list_of_questions h1{
+    text-align: center;
+    font-size: 46px;
+    color:white;  
+    padding-top:40px;
+    padding-bottom: 5px;
+}
+
+.list_of_questions{
+    background-color: black;
+    position:relative;
+    top:-39px;
+    height:800px;
+    border-bottom: 10px solid #222;
+    
+}
+.part_1{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #222;
+    width:55%;
+   position: relative;
+   left:209px;
+   padding: 8px;
+   color:#ffffff; 
+   top:10px;
+   background-color: #222;
+   cursor: pointer; 
+   
+}
+.part_1_info{
+    font-size: 27px;
+    position: relative;
+    right:128px;
+    color: #ffffff; 
+}
+.part_1_symbol{
+    position: relative;
+    top:10px;
+    left:116px;
+    color:#ffffff; 
+}
+.part_2{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:17px;
+    right:-209px;
+    border: 2px solid black;
+    padding:8px;
+    width:55%;
+    background-color: #222;
+    cursor: pointer; 
+}
+.part_2_info{
+    font-size: 27px;
+    color:#ffffff; 
+    position: relative;
+    right:79px;
+
+}
+.part_2_symbol{
+    position: relative;
+    left:71px;
+    top:9px;
+    color:#ffffff; 
+}
+.part_3{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:25px;
+    right:-209px;
+    border: 2px solid black;
+    padding:8px;
+    width:55%;
+    background-color: #222;
+    cursor: pointer; 
+}
+.part_3_info{
+    font-size: 27px;
+    color:#ffffff; 
+    position: relative;
+    right:116px;
+}
+.part_3_symbol{
+    position: relative;
+    left:108px;
+    top:9px;
+    color:#ffffff; 
+}
+.part_4{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:32px;
+    right:-209px;
+    border: 2px solid black;
+    padding:8px;
+    width:55%;
+    background-color: #222;
+    cursor: pointer; 
+    
+}
+.part_4_info{
+    font-size: 27px;
+    color:#ffffff; 
+    position: relative;
+    right:124px;
+}
+.part_4_symbol{
+    position: relative;
+    left:118px;
+    top:9px;
+    color:#ffffff; 
+}
+.part_5{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:39px;
+    right:-209px;
+    border: 2px solid black;
+    padding:8px;
+    width:55%;
+    background-color: #222;
+    cursor: pointer; 
+    
+}
+.part_5_info{
+    font-size: 27px;
+    color:#ffffff; 
+    position: relative;
+    right:83px;
+}
+.part_5_symbol{
+    position: relative;
+    left:74px;
+    top:9px;
+    color:#ffffff; 
+}
+.part_6{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:46px;
+    right:-209px;
+    border: 2px solid black;
+    padding:8px;
+    width:55%;
+    background-color: #222;
+    cursor: pointer; 
+    
+}
+.part_6_info{
+    font-size: 27px;
+    color:#ffffff; 
+    position: relative;
+    right:96px;
+}
+.part_6_symbol{
+    position: relative;
+    left:93px;
+    top:9px;
+    color:#ffffff; 
+}
+.list_of_questions h4{
+    color:black;
+}
+.list_of_questions h4{
+    position: relative;
+    top:90px;
+    text-align: center;
+    font-size: 21px;
+    color: #ffffff;
+}
+.list_of_questions form{
+    position: relative;
+    top:115px;
+    display: flex;
+    
+}
+#email_1{
+    position: relative;
+    left: 300px;
+    width:475px;
+    padding:17px;
+    background-color: #ffffff;
+    font-size: 16px;
+    
+}
+#submit_1{
+    position: relative;
+    left: 300px;
+    width:200px;
+    padding:17px;
+    color:#ffffff;
+    background-color: #E50914;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.footer p{
+    position: relative;
+    left: 165px;
+    font-size: 20px;
+    color:#757575;
+    top:45px;
+    font-weight: bolder;
+}
+.footer{
+    background-color: black; 
+    position: relative;
+    top:-59px;
+    height:700px;
+}
+.about_netflix{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black; 
+    position: relative;
+    top:52px;
+    line-height: 40px;
+    
+}
+.about_netflix a{
+    font-size: 15px;
+    list-style-type:none;
+    color:#757575;
+    text-decoration: none;
+}
+.about_netflix a:hover{
+    border-bottom: 1px solid #757575;
+}
+#symbol_2{
+    display: flex;
+    position: relative;
+    top:85px;
+    left:164px;
+    border:1px solid #757575;
+    width:7%;
+    padding:5px;
+    color:#757575;
+
+}
+#symbol_2 div{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
